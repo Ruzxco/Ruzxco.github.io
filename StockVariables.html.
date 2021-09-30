@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Template</title>
+  <link rel="stylesheet" href="myStyles.css">
+  <script>
+    /* <![CDATA[ */
+    // Most JavaScript code goes in the head section.
+    /* ]]> */
+
+let myVariable1 = 753.15;
+let myvariable2 = 3423.0;
+let myVariable3 = 146.12;
+let myVariable4 = 297.707;
+let myVariable5 = 42.175;
+  </script>
+<!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <!-- Your HTML content goes inside the body tag, below this comment.  -->
+  <script>
+    /* <![CDATA[ */
+    // But JavaScript code can go wherever it needs to be, including in the body.
+    /* ]]> */
+
+document.write ("tsla " + myVariable1);
+
+document.write("Amzn " + myvariable2);
+
+document.write("Appl " + myVariable3);
+
+document.write("Msft " + myVariable4);
+
+document.write("Bac " + myVariable5);
+  </script>
+</body>
+</html>
